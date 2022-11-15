@@ -129,6 +129,9 @@ img {
     color: #2196F3;
 
 }
+.current {
+    color: #2196F3;
+}
 
 .nav-link::after {
     content: "";
@@ -143,6 +146,11 @@ img {
     display: block;
     opacity: 0;
     transition: transform var(--animation), opacity var(--animation);
+    transform: translate(-50%) scaleX(0.3);
+}
+.current::after {
+    opacity: 1;
+        transform: translate(-50%) scaleX(1);
 }
 
 .nav-link:hover:after,
@@ -311,6 +319,11 @@ img {
     color: #FFFFFF;
     text-align: center;
     text-transform: uppercase;
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.03em;
+    
 }
 
 .team {
