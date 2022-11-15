@@ -153,11 +153,7 @@ img {
         transform: translate(-50%) scaleX(1);
 }
 
-/* .nav-link:hover:after,
-.nav-link:focus:after {
-    opacity: 1;
-    transform: translate(-50%) scaleX(1);
-} */
+
 
 .header-contacts {
     display: flex;
